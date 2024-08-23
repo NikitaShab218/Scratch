@@ -1,0 +1,17 @@
+main{
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.scratch_logo{
+    display: block;
+    margin: auto;
+}
+.for_me{
+    font-size: 30px;
+}
+.for_me_p{
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+}
