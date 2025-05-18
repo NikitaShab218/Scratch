@@ -1,48 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-   <main>
-       <article>
-          <div>
-              <img class="scratch_logo" src="scratch_logo.png" alt="Scratch">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мои игры на Scratch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <img src="assets/scratch_logo.png" alt="Scratch Logo" class="logo" />
+        <nav class="main-nav">
+          <a href="#about">О себе</a>
+          <a href="#projects">Мои работы</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h1>О себе</h1>
+          <p class="intro">
+            Меня зовут Никита, и я увлёкся созданием игр в 10 лет, начав с
+            платформы Scratch. С тех пор я постоянно развиваюсь в этой области,
+            пробуя новые идеи и технологии. Здесь я выложил свои лучшие проекты
+            Scratch — конечно это не все работы, но самые основные. Буду рад
+            вашим отзывам, идеям и предложениям!
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Мои лучшие работы</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Искатель бомбы</h3>
+              <p>
+                Найди бомбу на поле стрелками, нажимай пробел для подсказок.
+              </p>
+              <div class="iframe-wrapper">
+                <iframe
+                  src="https://forkphorus.github.io/embed.html?id=725507562&auto-start=true&light-content=false"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Flappy Bird</h3>
+              <p>
+                Набери 50 очков, управляя птицей нажатием на зелёную кнопку.
+              </p>
+              <div class="iframe-wrapper">
+                <iframe
+                  src="https://forkphorus.github.io/embed.html?id=733255413&auto-start=true&light-content=false"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Рыбалка</h3>
+              <p>Лови рыбу пробелом и набери 50 очков до окончания таймера.</p>
+              <div class="iframe-wrapper">
+                <iframe
+                  src="https://forkphorus.github.io/embed.html?id=1062724815&auto-start=true&light-content=false"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Змейка с читами</h3>
+              <p>Открой меню читов (кнопка HACK) и сыграй с фишками.</p>
+              <div class="iframe-wrapper">
+                <iframe
+                  src="https://forkphorus.github.io/embed.html?id=1068035540&auto-start=true&light-content=false"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
           </div>
-       </article>
-       <article>
-          <div class="for_me">
-              <h1>О себе:</h1>
-          </div>
-          <footer class="for_me_p">
-              <p>Меня зовут Никита и это мой небольшой репозиторий для проэктов Scratch. Здеcь я буду выкладывать свои проэкты по    Scratch и каждый сможет их посмотреть и познакомится со своим творчеством! Не судите строго я совсем недавно        начал этим заниматься. Когда я сделал репозиторий мне было всего 12 лет но мне очень интересно этим заниматься!</p>
-          </footer>
-       </article>
-       <article>
-           <h1 class="for_me">Мои работы:</h1>
-           <p class="for_me_p">Здесь будут показаны самые лучшие из моих работ Scratch!</p>
-           <p class="for_me_p">Надеюсь они вам понравятся!</p>
-           <h2>№1</h2>
-           <p>Программа искатель бомб. Это одна из первых и одна из самых простых работ которые когда я либо делал за все          время. Тем не менее эта программа мне очень запомнилась так как это была моя первая игра!</p>
-           <p>Описание:</p>
-           <p>В этой программе запрятанна бомба посередине поля и надо управляя стрелочками ее найти, нажимай на пробел чтобы получить подсказки!</p>
-           <iframe src="https://forkphorus.github.io/embed.html?id=725507562&auto-start=true&light-content=false" width="482"             height="393" allowfullscreen="true" allowtransparency="true" style="border:none;"></iframe>
-       </article>
-       <article>
-           <h1>№2</h1>
-        <p>Flappy Bird знаменитая программа которую я решил перерделать с абсолютного нуля. Нажимайте на зеленую кнопку чтобы      управлять птицей. Проиграть здесь нельзя ведь вы будете возрождаться после потери жизней, а чтобы победить надо набрать 50 очков. Но учтите это сложнее чем кажется.</p>
-        <iframe src="https://forkphorus.github.io/embed.html?id=733255413&auto-start=true&light-content=false" width="482" height="393" allowfullscreen="true" allowtransparency="true" style="border:none;"></iframe>
-       </article>
-        <article>
-           <h1>№3</h1>
-           <p>Это программа называется "Рыбалка" в ней при нажатии на пробел выскакивает крючок и нужно поймать рыбу сколько рыб столько очков вы наберете. Постарайтесь набрать 50 очков до исечения таймера.</p>
-           <iframe src="https://forkphorus.github.io/embed.html?id=1062724815&auto-start=true&light-content=false" width="482" height="393" allowfullscreen="true" allowtransparency="true" style="border:none;"></iframe>
-       </article>
-   </main>
-</body>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Никита. Все права защищены.</p>
+        <p>:D всегда хотел так написать</p>
+      </div>
+    </footer>
+  </body>
 </html>
+
